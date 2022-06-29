@@ -1,0 +1,32 @@
+.scrollable-div {
+    
+    height: 100vh;
+    overflow: auto;
+     /* margin: 20px;  */
+    text-align: justify;
+    scrollbar-width: none;
+  }
+
+ ::-webkit-scrollbar{
+    width: 12px;
+  }
+ ::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 6px;;
+  }
+
+  .custom-modal-style {
+    width: 50%;
+    height: 802px;
+    margin: auto;
+  }
+
+  .my-modal {
+    width: 50vw;    /* Occupy the 90% of the screen width */
+    max-width: 60vw;
+} 
+
+.approve-modal {
+  width: 40vw;    /* Occupy the 90% of the screen width */
+  max-width: 40vw;
+} 
